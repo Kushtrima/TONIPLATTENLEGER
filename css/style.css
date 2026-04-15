@@ -1570,6 +1570,21 @@ footer h4 {
   color: var(--white);
 }
 
+.monun-link,
+.monun-link:link,
+.monun-link:visited {
+  color: inherit;
+  margin-left: 0;
+  text-decoration: underline;
+  text-decoration-color: rgba(255,255,255,0.3);
+  text-underline-offset: 2px;
+  transition: color 0.3s ease;
+}
+
+.monun-link:hover {
+  color: var(--red);
+}
+
 @media (max-width: 768px) {
   .footer { padding: 60px 0 0; }
   .footer-grid {
