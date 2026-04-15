@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AGB — Toni Plattenleger GmbH</title>
+  <meta name="description" content="Allgemeine Geschäftsbedingungen der Toni Plattenleger GmbH.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://toniplattenleger.ch/agb.html">
+  <link rel="icon" href="src/logo/icon.svg" type="image/svg+xml">
+  <meta property="og:title" content="AGB — Toni Plattenleger GmbH">
+  <meta property="og:description" content="Allgemeine Geschäftsbedingungen der Toni Plattenleger GmbH.">
+  <meta property="og:url" content="https://toniplattenleger.ch/agb.html">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="de_CH">
+  <meta property="og:site_name" content="Toni Plattenleger GmbH">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="navbar-logo"><img src="src/logo/Logo-color.svg" alt="Toni Plattenleger GmbH"></a>
+      <button class="menu-toggle" onclick="this.classList.toggle('active');document.querySelector('.navbar-links').classList.toggle('open')">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="navbar-links">
+        <a href="index.html">Home</a>
+        <a href="angebot.html">Angebot</a>
+        <a href="ueber-uns.html">Über uns</a>
+        <a href="referenzen.html">Referenzen</a>
+        <a href="kontakt.html">Kontakt</a>
+      </div>
+      <div class="navbar-cta">
+        <span class="navbar-phone">+41 76 218 42 09</span>
+        <a href="kontakt.html" class="btn navbar-btn">Offerte anfordern <svg class="btn-arrow" viewBox="0 0 24 24"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="8 7 17 7 17 16"/></svg></a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <section class="angebot-hero">
+    <div class="angebot-hero-bg" style="background-image: url('src/img/hero-banner.webp');"></div>
+    <div class="container">
+      <div class="angebot-hero-grid">
+        <div class="angebot-hero-left">
+          <span class="section-label" style="color: var(--white); font-weight: 400; font-size: 0.7rem;">Rechtliches</span>
+          <h1><em style="color: var(--red);">AGB</em></h1>
+        </div>
+        <div class="angebot-hero-divider"></div>
+        <div class="angebot-hero-right">
+          <p>Allgemeine Geschäftsbedingungen der Toni Plattenleger GmbH.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTENT -->
+  <section class="legal-section">
+    <div class="container">
+      <div class="legal-content">
+        <p><em>Inhalt folgt in Kürze.</em></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="navbar-logo"><img src="src/logo/Logo-color.svg" alt="Toni Plattenleger GmbH"></a>
+          <p>Ihr Partner für professionelle Plattenarbeiten in der Schweiz. Qualität, Präzision und Zuverlässigkeit seit über 10 Jahren.</p>
+        </div>
+        <div>
+          <h4>Angebot</h4>
+          <ul class="footer-links">
+            <li><a href="angebot.html">Bodenbeläge</a></li>
+            <li><a href="angebot.html">Wandbeläge</a></li>
+            <li><a href="angebot.html">Nasszellen</a></li>
+            <li><a href="angebot.html">Terrasse & Aussen</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Firma</h4>
+          <ul class="footer-links">
+            <li><a href="ueber-uns.html">Über uns</a></li>
+            <li><a href="referenzen.html">Referenzen</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Kontakt</h4>
+          <ul class="footer-contact">
+            <li>[Adresse Platzhalter]</li>
+            <li>+41 76 218 42 09</li>
+            <li>Info@toni-plattenleger.ch</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 Toni Plattenleger GmbH &nbsp;&mdash;&nbsp; Design &amp; Implemented by: MONUN AG</span>
+        <div>
+          <a href="impressum.html">Impressum</a>
+          <a href="datenschutz.html">Datenschutz</a>
+          <a href="agb.html">AGB</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    window.addEventListener('scroll', function() {
+      const navbar = document.querySelector('.navbar');
+      if (window.scrollY > 80) {
+        navbar.classList.add('scrolled');
+      } else {
+        navbar.classList.remove('scrolled');
+      }
+    });
+  </script>
+
+</body>
+</html>
